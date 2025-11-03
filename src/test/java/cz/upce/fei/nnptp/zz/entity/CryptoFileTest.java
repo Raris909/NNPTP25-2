@@ -38,8 +38,9 @@ public class CryptoFileTest {
         File file = null;
         String password = "";
         String expResult = "";
-        String result = "";
+        String result = ""; //CryptoFile.readFile(file, password);
         assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
     }
 
     /**
@@ -51,6 +52,8 @@ public class CryptoFileTest {
         File file = null;
         String password = "";
         String cnt = "";
+        //CryptoFile.writeFile(file, password, cnt);
+        // TODO review the generated test code and remove the default call to fail.
     }
     
 }
